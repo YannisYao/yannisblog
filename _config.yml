@@ -76,6 +76,11 @@ deploy:
   type: git
   repo: git@www.yanniszone.com:/home/blog/.git
   branch: master
+  type: rsync
+  host: www.yanniszone.com
+  user: root
+  root: /usr/local/apache/htdocs
+  port: 22
   
 
 sitemap:
