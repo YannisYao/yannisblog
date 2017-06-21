@@ -110,3 +110,33 @@
         margin: 5px 5px 5px 0;
     }
 }
+
+.leancloud_visitors {
+  float: left;
+  color: #6d7699;
+  margin-right: 10px;
+  margin-top: 5px
+}
+
+.counter-tag {
+    float: left;
+	margin-right: 25px
+}
+
+.counter-tag:before {
+    float: left;
+    color: #6d7699;
+    content: "\f06e";
+    font: 17px FontAwesome;
+	margin-right: 10px;
+	margin-top: 6px;
+	float: left
+}
+
+.counter-tag:after {
+  float: left;
+  content: "";
+  margin-right: 20px;
+  margin-top: 9px;
+  float: left
+}
